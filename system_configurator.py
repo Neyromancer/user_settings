@@ -101,7 +101,8 @@ class UserSettingLoader:
     else:
       self.logger.info( "User setting loader finished." )
 
+
 if __name__ == '__main__':
-  settings.init()
-  settings_loader = UserSettingLoader()
-  settings_loader.main()
+    settings.init()
+    settings_loader = UserSettingLoader()
+    settings_loader.main()
